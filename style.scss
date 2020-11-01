@@ -253,27 +253,6 @@ body {
 	}
 }
 
-
-.credits {
-	margin-top: auto;
-	margin-bottom: 10px;
-	padding-top: 6px;
-	font-size: 0.8em;
-	opacity: 0.75;
-	
-	a {
-		color: $ui-color;
-		text-decoration: none;
-		
-		&:hover,
-		&:active {
-			color: rgba(white, 0.75);
-			text-decoration: underline;
-		}
-	}
-}
-
-
 .help-modal {
 	$self: &;
 	$duration-in: 0.4s;
